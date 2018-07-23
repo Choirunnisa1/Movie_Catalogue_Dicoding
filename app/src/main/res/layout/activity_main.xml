@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_horizontal_margin"
+    android:paddingLeft="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_vertical_margin"
+    tools:context="com.project.choirunnisa.lika.MainActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:weightSum="1"
+            >
+
+            <EditText
+                android:id="@+id/edit_judul"
+                android:layout_width="236dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.9"
+                android:ems="10"
+                android:hint="@string/masukkan_judul_film"
+                android:inputType="text"
+                android:textColor="#b94c4c"
+                android:maxLines="1"
+                android:paddingBottom="10dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:background="@drawable/search"
+                android:paddingTop="10dp" />
+            <Button
+                android:id="@+id/btn_search"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cari"
+                android:textColor="#fdfcfc"
+                android:textStyle="bold"
+                android:layout_weight="0.1"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/button" />
+        </LinearLayout>
+    <android.support.v7.widget.RecyclerView
+        android:padding="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rv">
+    </android.support.v7.widget.RecyclerView>
+    </LinearLayout>

@@ -1,0 +1,10 @@
+
+<resources>
+    <string name="app_name">CatalogueMovie</string>
+    <string name="deskripsi">Deskripsi</string>
+    <string name="judul_film">Judul Film</string>
+    <string name="masukkan_judul_film">Masukkan judul film</string>
+    <string name="cari">Cari</string>
+    <string name="tanggal">Waktu</string>
+
+</resources>
